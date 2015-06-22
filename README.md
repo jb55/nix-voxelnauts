@@ -13,11 +13,11 @@
 
   List the available packages:
 
-    nix-env -f . -qaP
+    nix-env -f ~/nix-voxelnauts -qaP
 
   Install something:
 
-    nix-env -f . -i voxgen
+    nix-env -f ~/nix-voxelnauts -i voxgen
 
 ## License
 
