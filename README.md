@@ -3,11 +3,17 @@
   Nix expressions for installing Voxelnauts tools, and eventually Voxelnauts
   itself
 
-## Usage
+## Installing
 
   Clone it:
 
     git clone https://github.com/jb55/nix-voxelnauts ~/nix-voxelnauts && cd ~/nix-voxelnauts
+
+## Installing Packages
+
+  List the available packages:
+
+    nix-env -f . -qaP
 
   Install something:
 
